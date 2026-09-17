@@ -1,0 +1,21 @@
+{
+  "name": "javascript-oops-typescript-course",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An end-to-end, production-minded course for JavaScript, object-oriented programming, and TypeScript.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/javascript/app.js",
+    "build": "tsc --project tsconfig.json",
+    "test": "node --test",
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "format:check": "prettier --check .",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  }
+}
